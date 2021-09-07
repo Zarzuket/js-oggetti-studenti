@@ -44,3 +44,14 @@ for (i=0; i<studenti.length; i++){
     
 }
 }
+
+
+studenteUtente = {
+    "nome" : prompt("inserisci il nome del nuovo studente"),
+    "cognome" : prompt("inserisci il cognome del nuovo studente"),
+    "eta" :  parseInt(prompt("inserisci l'età del nuovo studente"))
+
+};
+
+studenti.push(studenteUtente);
+console.log(studenti);
